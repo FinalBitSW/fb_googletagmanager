@@ -28,7 +28,8 @@
 * @source   https://github.com/FinalBitSW/fb_seotoolkit.git
 * @license  MIT
 *
-/
+*
+*/
 
 if (!defined('_PS_VERSION_'))
 	exit;
@@ -43,7 +44,7 @@ class Fb_googletagmanager extends Module
 		$this->name = 'fb_googletagmanager';
 		$this->tab = 'analytics_stats';
 		$this->author = 'FinalBit';
-		$this->version = '1.0';
+		$this->version = '1.0.1';
 		$this->bootstrap = true;
 
 		parent::__construct();

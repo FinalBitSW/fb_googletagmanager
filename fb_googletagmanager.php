@@ -131,7 +131,9 @@ class Fb_googletagmanager extends Module
 		}
 
 		$output .= $this->renderForm();
-		return $output;
+		//Org return $output;
+		return $this->display(__FILE__, './views/templates/admin/configuration.tpl').$output;
+		
 	}
 
 	public function renderForm()

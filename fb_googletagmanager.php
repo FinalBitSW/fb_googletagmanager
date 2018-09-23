@@ -1,5 +1,5 @@
 <?php
-/*
+/**
 * This file is part of the "FinalBit SEO ToolKit" module.
 *
 * The MIT License (MIT)
